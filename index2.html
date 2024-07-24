@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de projeto</title>
+</head>
+
+<body>
+    <main>
+    <section>
+        <h2>Formulario de projeto
+        </h2>
+        <form action="#" method="get">
+        <p>
+            <label for="titulo">*Titulo do projeto:</label>
+            <input type="text" id="titulo" name="Titulo">
+        </p>
+        <p>
+            <label for="Coordenador">*Coordenador do projeto:</label>
+            <input type="text" id="Coordenador" name="coordenadorDoProjeto">
+        </p>
+        <p>
+            <label for="Previsão">*Previsão de orçamento:</label>
+            <input type="number" id="Previsão" name="PrevisãoDeOrçamento">
+        </p>
+        <p>
+            <label for="Data">*Data de Inicio:</label>
+            <input type="date" id="Data" name="Data">
+        </p>
+        <p>
+            <label for="Data">*Data de fim:</label>
+            <input type="date" id="Data2" name="Data2">
+        </p>
+
+        <p>
+            <label for="tempo">Tempo de duração:</label>
+            <select name="tempo" id="tempo">
+                <option value="1">trimestral</option>
+                <option value="2">semestral</option>
+                <option value="3">anual</option>
+            </select>
+        </p>
+        <p>
+        <fieldset>
+            <legend>Nivel de impacto:</legend>
+            <label><input type="radio" name="comunicacao" value="1">Regional</label>
+            <label><input type="radio" name="comunicacao" value="2">Nacional</label>
+        </fieldset>
+
+        <p>
+        <fieldset>
+            <legend>
+                Obteve conhecimento do projeto:
+            </legend>
+            <label> <input type="checkbox" name="conhecimento" value="1">Erradicação da pobrez</label>
+            <label> <input type="checkbox" name="conhecimento" value="2">Fome zero e agricultura sustentável</label>
+            <label> <input type="checkbox" name="conhecimento" value="3">Saúde e bem-estar</label>
+            <label> <input type="checkbox" name="conhecimento" value="4">Educação de qualidade</label>
+            <label> <input type="checkbox" name="conhecimento" value="5">Igualdade de gênero</label>
+            <label> <input type="checkbox" name="conhecimento" value="6">Água potável e saneamento básico</label>
+            <label> <input type="checkbox" name="conhecimento" value="7">Energia limpa e acessível</label>
+            <label> <input type="checkbox" name="conhecimento" value="8">Trabalho decente e crescimento econômico</label>
+            <label> <input type="checkbox" name="conhecimento" value="9">Indústria, inovação e infraestrutura</label>
+        </fieldset>
+        <p>
+            <label><input type="checkbox" name="notificacao" id="notificacao">Desejo receber notificações por e-mail sobre o projeto</label>
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+
+        </p>
+        </form>
+    </section>
+    </main>
+</body>
+
+</html>
